@@ -14,7 +14,7 @@ import (
 	"syscall"
 
 	pt "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel"
+	"github.com/excurso/webtunnel"
 )
 
 func main() {

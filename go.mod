@@ -1,4 +1,4 @@
-module gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel
+module github.com/excurso/webtunnel
 
 go 1.18
 

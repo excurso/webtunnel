@@ -8,7 +8,7 @@ import (
 
 	pt "gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/goptlib"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/transport/httpupgrade"
+	"github.com/excurso/webtunnel/transport/httpupgrade"
 )
 
 type ServerConfig struct {

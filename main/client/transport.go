@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/transport/httpupgrade"
+	"github.com/excurso/webtunnel/transport/httpupgrade"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/transport/tls"
+	"github.com/excurso/webtunnel/transport/tls"
 )
 
 type ClientConfig struct {

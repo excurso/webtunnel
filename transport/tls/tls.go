@@ -7,7 +7,7 @@ import (
 	"errors"
 	"net"
 
-	"gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/common/certiChainHashCalc"
+	"github.com/excurso/webtunnel/common/certiChainHashCalc"
 )
 
 type Config struct {

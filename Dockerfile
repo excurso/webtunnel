@@ -6,7 +6,7 @@ ENV CGO_ENABLED=0
 
 WORKDIR /webtunnel
 
-RUN go build -ldflags="-s -w" -o "build/server" gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/main/server
+RUN go build -ldflags="-s -w" -o "build/server" github.com/excurso/webtunnel/main/server
 
 FROM containers.torproject.org/tpo/tpa/base-images/debian:trixie
 

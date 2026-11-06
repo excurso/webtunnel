@@ -18,6 +18,6 @@ pushd "$GOARCH-$GOOS"
 popd
 popd
 
-go build -ldflags="-s -w" -o "build/$GOARCH-$GOOS/client" gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/main/client
-go build -ldflags="-s -w" -o "build/$GOARCH-$GOOS/server" gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/webtunnel/main/server
+go build -ldflags="-s -w" -o "build/$GOARCH-$GOOS/client" github.com/excurso/webtunnel/main/client
+go build -ldflags="-s -w" -o "build/$GOARCH-$GOOS/server" github.com/excurso/webtunnel/main/server
 
